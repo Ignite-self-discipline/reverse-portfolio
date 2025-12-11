@@ -1,0 +1,110 @@
+### 1. 操作系统级杂项 ###
+.DS_Store
+Thumbs.db
+
+### 2. C/C++ 编译产物 ###
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.elf
+*.bin
+*.dump
+*.map
+
+# 自动生成的依赖文件
+*.d
+
+# 编译目录
+build/
+build*/
+cmake-build*/
+dist/
+release/
+debug/
+
+### 3. Makefile / CMake 产生的缓存 ###
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+### 4. Python 缓存 ###
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+### 5. IDA Pro ###
+*.id0
+*.id1
+*.nam
+*.til
+*.idb
+*.i64
+*.pdb
+*.rdata
+*.pdata
+*.i64.bak
+ida.log
+ida.dbg
+
+### 6. Ghidra ###
+*.gdz
+*.rep
+ghidra_projects/
+*/.ghidra/
+*/ghidra_project/
+*.bin_export
+*.gpr
+
+### 7. Radare2 ###
+*.r2
+*.rdb
+*.rr2
+
+### 8. 调试器（gdb/lldb）文件 ###
+*.gdb
+*.gdb_history
+*.lldb
+*.core
+core
+core.*
+
+### 9. 样本、固件、CTF 题目附件（千万不要提交） ###
+samples/
+binaries/
+malware/
+firmware/
+dump/
+memory/
+attachments/
+challenge/
+
+### 10. 工作区配置（不需要上传） ###
+.vscode/
+.idea/
+*.swp
+*.swo
+
+### 11. 日志 / 临时文件 ###
+*.log
+*.tmp
+*.temp
+
+### 12. 压缩包（如有需要，手动上传） ###
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
